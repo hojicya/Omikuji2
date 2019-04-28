@@ -1,0 +1,29 @@
+body{
+  background-color:#fffafa;
+  user-select:none;
+
+}
+
+#btn{
+  width:250px;
+  height:250px;
+  margin:30px auto 0;
+  background-color:#db7093;
+  border-radius:50%;
+  box-shadow:0 15px #ffb6c1;
+  cursor:pointer;
+  text-align:center;
+  line-height:250px;
+  font-size:40px;
+  font-weight:bold;
+  color:#fff;
+}
+
+#btn:hover{
+  opacity:0.9;
+}
+
+#btn.pressed{
+  box-shadow:none;
+  margin-top:45px;
+}
